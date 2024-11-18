@@ -25,7 +25,7 @@ def addUser(firstName, lastName, birthDate, password, department, admin):
         INSERT INTO users (firstName, lastName, birthDate, password, department, admin) VALUES ('{firstName}', '{lastName}', '{birthDate}', '{password}', '{department}','{admin}')    
     ''')
 
-addUser('Nathan','Arter', '04/16/2003', 'TheAdminPass','Student', 'True')
+#addUser('User','Name', '04/16/2003', 'TheAdminPass','Student', 'True')
 
 # Commit the changes to the database
 connect.commit()
